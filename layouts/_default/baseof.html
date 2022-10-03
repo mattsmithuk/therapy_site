@@ -7,11 +7,15 @@
     {{- partial "footer.html" . -}}
 
     <!-- We do need jQuery to be loaded before HugoScroll script -->
-    <script type="text/javascript" src='{{ "js/jquery-3.6.0.min.js" | absURL }}'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- The main JavaScript files for HugoScroll -->
-    <script type="text/javascript" src='{{ "js/icons.js" | absURL }}'></script>
-    <script type="text/javascript" src='{{ "js/index.js" |absURL }}'></script>
+    {{ $icons := resources.Get "js/icons.js" }}
+    {{ $main := resources.Get "js/main.js" }}
+
+    {{ $js := slice $icons $main | resources.Concat "js/bundle.js" | minify }}
+    <script type="text/javascript" src='{{ $js.Permalink }}'></script>
+
     <!-- A partial to be overwritten by the user.
              Simply place a custom_body.html into
              your local /layouts/partials-directory -->
