@@ -19,13 +19,15 @@
 <meta name="MobileOptimized" content="320" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="stylesheet" href="{{ "css/screen.css" | absURL }}" />
-<link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}" type="text/css" />
-<link
-  rel="stylesheet"
-  href="{{ "fork-awesome/css/fork-awesome.min.css" | absURL }}"
-  type="text/css"
-/>
+{{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction) ) }}
+{{ $style := resources.Get "scss/main.scss" | toCSS $options | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css"/>
+
+{{ $fonts := resources.Get "css/fonts.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $fonts.Permalink }}" type="text/css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css" integrity="sha512-aupidr80M36SeyviA/hZ2uEPnvt2dTJfyjm9y6z1MgaV13TgzmDiFdsH3cvSNG27mRIj7gJ2gNeg1HeySJyE3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
