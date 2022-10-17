@@ -1,10 +1,8 @@
 ---
-title: "Welcome"
+title: "Introduction"
 weight: 1
 ---
 
-Hi there. This section will not show up in the header menu above. Other than that, there's really not much to see here. I did however append some generated »Lorem ipsum«-paragraphs for you. Enjoy!
+We all experience times when life becomes difficult and we struggle to manage the emotions around that. As a therapist I offer a safe, supportive, non-judgemental space to explore the issues you are dealing with and the thoughts and feelings you are experiencing. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula turpis nec arcu cursus, ac faucibus felis tempor. Donec molestie arcu eu pretium accumsan. Phasellus urna nisi, volutpat pharetra orci vel, feugiat sollicitudin diam. Phasellus dolor tortor, feugiat a ipsum id, gravida volutpat urna. Nam dictum nulla ac nisi aliquam ultricies. Nam tempus eget lorem vitae vulputate.
-
-Nulla aliquet, nisl pulvinar fermentum ultricies, turpis purus ultricies lorem, ut faucibus arcu nisl in tellus. Integer eu augue auctor, fringilla nunc ut, finibus eros. Curabitur est lectus, ultricies id blandit at, malesuada et ipsum. Suspendisse potenti. Quisque euismod sapien arcu, vel sollicitudin ipsum dignissim nec.
+Counselling can enable you to gain insight into your issues and enable you to develop a greater awareness of yourself and your needs. It will assist you to come to terms with difficulties in coping with life past and present and in acquiring new perspectives of life situations. This will help you to make changes to the way you feel, think and behave by exploring new ways to overcome the difficulties that hold you back from achieving your goals and enable you to look ahead with more clarity and a sense of direction.
