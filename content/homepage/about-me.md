@@ -15,5 +15,5 @@ As a therapist I offer a safe, supportive, non-judgemental space where  together
 ##### Qualifications
 
 - Level 5 Professional Diploma in Psychotherapeutic Counselling Practice (Prof. Dip. Psy C.) 
-- Certificate in Hypnotherapy and Counselling Skills (Cert Hyp C)
+- Certificate in Hypnotherapy and Counselling Skills (Cert. Hyp. C.)
 - Post Graduate Certificate in Cognitive Behavioural Therapy 
