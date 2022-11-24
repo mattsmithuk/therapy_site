@@ -1,6 +1,6 @@
 ---
 title: "Services"
-weight: 2
+weight: 3
 header_menu: true
 ---
 
@@ -10,7 +10,7 @@ I am able to offer daytime and evening appointments.
 I offer on line counselling and telephone consultations.
 
 
-##### Areas I Work in
+##### Areas I Work In
 
 I work with all presenting issues however the most common ones are:
 - Loss and Bereavement
