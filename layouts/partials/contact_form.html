@@ -1,3 +1,29 @@
-<form action="https://submit-form.com/{{ .Site.Params.formspark_form_id }}">
-    <textarea name="message"></textarea>
-    <button class="btn site-menu" type="submit">Submit</button>
+<form id="contactForm" method="post" action="https://forms.un-static.com/forms/f3e92d43854770b24f7530b8c3d80724eeecb2f4">
+    <div class="form-group row">
+      <label for="name" class="col-4 col-form-label">Name</label>
+      <div class="col-8">
+        <div class="input-group">
+          <input id="name" name="name" placeholder="Please enter your name" type="text" required class="form-control" />
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="email" class="col-4 col-form-label">E-mail address</label>
+      <div class="col-8">
+        <div class="input-group">
+          <input id="email" name="email" placeholder="Your e-mail address" type="email" required class="form-control" />
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="message" class="col-4 col-form-label">Message</label>
+      <div class="col-8">
+        <textarea id="message" name="message" cols="40" rows="10" required class="form-control"></textarea>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="">
+        <input type="submit" id="submitBtn" data-title-anchor="submit" form="contactForm" value="Send" />
+      </div>
+    </div>
+  </form>
