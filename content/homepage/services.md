@@ -10,7 +10,7 @@ I am able to offer daytime and evening appointments.
 I offer on line counselling and telephone consultations.
 
 
-##### Areas of Counselling I Deal With
+##### Areas I Work in
 
 I work with all presenting issues however the most common ones are:
 - Loss and Bereavement
