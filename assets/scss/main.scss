@@ -439,6 +439,37 @@ $colour_9: #4a4a4a;
      float: left;
      padding-top: 7px;
    }
+
+   input {
+      width: 100%;
+   }
+
+   input[type=submit] {
+    text-decoration: none;
+     background-color: $a_btn;
+     border-radius: 6px;
+     -webkit-border-radius: 6px;
+     color: $white;
+     display: inline-block;
+     font-size: 16px;
+     letter-spacing: 1px;
+     margin: 0;
+     overflow: visible;
+     padding: 10px 20px 10px 20px;
+     position: relative;
+     margin-top: 2rem;
+     cursor: pointer;
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-weight: lighter;
+     width: 100px;
+     border: none;
+     text-decoration: none;
+  }
+
+   textarea {
+    width: 100%;
+   }
    
    /* ==========================================================================
          3. Utilities - These things get used a lot
