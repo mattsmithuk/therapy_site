@@ -36,7 +36,5 @@ title = "Janet Smith - Counselling & Psychotherapy"
     # You can turn it off, but we would really appreciate if you don’t :-)
     # hidedesignbyline = true
 
-    formspark_form_id = 123456
-
     [params.meta]
-        keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
+        keywords = "counsellor, counselling, psychotherapy, uk, united kingdom, mental health, north west, cheshire, macclesfield"
