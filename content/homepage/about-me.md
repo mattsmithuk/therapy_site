@@ -4,7 +4,7 @@ weight: 2
 header_menu: true
 ---
 
-![Image](images/christin-hume-unsplash.jpg)
+![Image](images/christin-hume-unsplash-large.jpg)
 
 I am a fully qualified counsellor and psychotherapist who has 14 years’ experience and a Registered Member of the National Counselling Society. I have gained my experience working with young people and adults who are experiencing stress, anxiety, low mood, anger, loss and bereavement amongst other complex and difficult emotions. 
 
